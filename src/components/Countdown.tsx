@@ -3,7 +3,7 @@ import { Clock } from 'lucide-react';
 
 const Countdown = () => {
   const [timeLeft, setTimeLeft] = useState({
-    days: 30,
+    days: 10,
     hours: 12,
     minutes: 45,
     seconds: 30

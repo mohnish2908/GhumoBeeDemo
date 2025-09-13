@@ -19,7 +19,7 @@ function App() {
       <Hero />
       <About />
       <Countdown />
-      <EmailSignup />
+      {/* <EmailSignup /> */}
       <Footer />
     </div>
   );

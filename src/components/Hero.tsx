@@ -1,12 +1,12 @@
-import React from 'react';
-import { ChevronRight, Play } from 'lucide-react';
-import BeeAnimation from './BeeAnimation';
+import React from "react";
+import { ChevronRight, Play } from "lucide-react";
+import BeeAnimation from "./BeeAnimation";
 
 const Hero = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-yellow-50 via-white to-teal-50 flex items-center justify-center relative overflow-hidden">
       <BeeAnimation />
-      
+
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-64 h-64 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -24,23 +24,41 @@ const Hero = () => {
               </span>
             </h1>
           </div>
-          
+
           <div className="animate-fade-in-up animation-delay-300">
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-              A global community where travelers meet hosts through meaningful volunteering experiences.
+              GhumoBee is a community-driven travel platform that connects
+              property owners (hosts) with skilled travelers looking for
+              authentic experiences.{" "}
             </p>
           </div>
 
           <div className="animate-fade-in-up animation-delay-600">
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <a href="https://ghumobee-new-qlo0.bolt.host/" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-r from-yellow-500 to-yellow-400 hover:from-yellow-600 hover:to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center space-x-2 min-w-[200px]">
-                <Play size={20} className="group-hover:translate-x-1 transition-transform" />
+              <a
+                href="https://ghumobee-new-qlo0.bolt.host/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-gradient-to-r from-yellow-500 to-yellow-400 hover:from-yellow-600 hover:to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center space-x-2 min-w-[200px]"
+              >
+                <Play
+                  size={20}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
                 <span>Preview Website</span>
               </a>
-              
-              <a href="https://forms.gle/wwwd2E2psDSvX3dJ8" target="_blank" rel="noopener noreferrer" className="group bg-white hover:bg-teal-50 text-teal-600 border-2 border-teal-500 hover:border-teal-600 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center space-x-2 min-w-[200px]">
+
+              <a
+                href="https://forms.gle/wwwd2E2psDSvX3dJ8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-white hover:bg-teal-50 text-teal-600 border-2 border-teal-500 hover:border-teal-600 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center space-x-2 min-w-[200px]"
+              >
                 <span>Become a Host</span>
-                <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                <ChevronRight
+                  size={20}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
               </a>
             </div>
           </div>

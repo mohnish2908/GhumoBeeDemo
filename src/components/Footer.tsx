@@ -18,12 +18,12 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-2 text-gray-400">
               <MapPin size={16} />
-              <span className="text-sm">Starting in India • Expanding Globally</span>
+              <span className="text-sm">Starting in India </span>
             </div>
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-3">
               <li>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact & Social */}
           <div>
@@ -58,11 +58,11 @@ const Footer = () => {
                 className="flex items-center space-x-2 text-gray-300 hover:text-yellow-400 transition-colors"
               >
                 <Mail size={16} />
-                <span>support@ghumobee.com</span>
+                <span>collab@ghumobee.com</span>
               </a>
             </div>
             
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a 
                 href="#" 
                 className="w-10 h-10 bg-gray-800 hover:bg-yellow-500 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
@@ -75,7 +75,7 @@ const Footer = () => {
               >
                 <Linkedin size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -86,7 +86,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
               <span className="text-gray-500 text-sm">Made with</span>
-              <span className="text-yellow-400">🐝</span>
+              <span className="text-yellow-400">❤️</span>
               <span className="text-gray-500 text-sm">in India</span>
             </div>
           </div>

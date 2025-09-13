@@ -1,5 +1,5 @@
-import React from 'react';
-import { Users, MapPin, Heart } from 'lucide-react';
+import React from "react";
+import { Users, MapPin, Heart } from "lucide-react";
 
 const About = () => {
   return (
@@ -10,8 +10,9 @@ const About = () => {
             About GhumoBee 🐝
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            GhumoBee is building a platform to connect travelers and hosts across India. 
-            Whether you're a host with space or a traveler with skills, we make cultural exchange simple and fun.
+            With GhumoBee instead of just visiting a place, our travelers become part of it,
+            contributing their skills, creativity, and energy in exchange for
+            stay, meals, and cultural immersion
           </p>
         </div>
 
@@ -28,8 +29,9 @@ const About = () => {
                   <span className="text-3xl">👨‍🌾</span>
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Farm owners, homestays, and hotels can connect with skilled volunteers 
-                  who bring fresh perspectives and helping hands to your community.
+                  Farm owners, homestays, and hotels can connect with skilled
+                  volunteers who bring fresh perspectives and helping hands to
+                  your community.
                 </p>
                 <div className="mt-6 flex justify-center space-x-4 text-sm text-gray-500">
                   <div className="flex items-center space-x-1">
@@ -57,8 +59,9 @@ const About = () => {
                   <span className="text-3xl">🎒</span>
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Travelers, students, and creators can explore India authentically 
-                  while contributing their skills and making meaningful connections.
+                  Travelers, students, and creators can explore India
+                  authentically while contributing their skills and making
+                  meaningful connections.
                 </p>
                 <div className="mt-6 flex justify-center space-x-4 text-sm text-gray-500">
                   <div className="flex items-center space-x-1">
@@ -76,7 +79,7 @@ const About = () => {
         </div>
 
         {/* Stats or Features */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <div className="animate-fade-in-up">
               <div className="text-3xl font-bold text-yellow-500">500+</div>
@@ -94,8 +97,8 @@ const About = () => {
               <div className="text-3xl font-bold text-teal-500">∞</div>
               <div className="text-sm text-gray-600">Possibilities</div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </section>
   );
