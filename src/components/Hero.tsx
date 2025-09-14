@@ -18,10 +18,11 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 leading-tight">
-              Travel, Explore,
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-teal-500 block">
-                Connect 🌍
+              Travel, Explore, Connect 
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-teal-500 block pb-2">
+               Coming Soon
               </span>
+              
             </h1>
           </div>
 
@@ -64,16 +65,16 @@ const Hero = () => {
           </div>
 
           <div className="animate-fade-in-up animation-delay-900">
-            <div className="flex justify-center items-center space-x-8 text-sm text-gray-500">
+            <div className="flex justify-center items-center space-x-8 text-lg text-gray-500">
               <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-yellow-400 rounded-full animate-ping"></div>
-                <span>Coming Soon</span>
+                <div className="w-7 h-7 bg-yellow-400 rounded-full animate-ping"></div>
+                <span>This is just a sample website</span>
               </div>
-              <div className="hidden sm:block w-px h-4 bg-gray-300"></div>
+              {/* <div className="hidden sm:block w-px h-4 bg-gray-300"></div>
               <div className="flex items-center space-x-2">
                 <span>🇮🇳</span>
                 <span>Starting in India</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
